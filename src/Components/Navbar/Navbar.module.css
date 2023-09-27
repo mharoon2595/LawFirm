@@ -1,0 +1,23 @@
+.navbar{
+    background-color: var(--color-black);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:2rem;
+}
+
+.centerMenus{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 50px;
+
+}
+
+.contact{
+    border: 2px solid white;
+    padding:10px
+}
+
+.menuHover{
+    cursor: pointer;
+}

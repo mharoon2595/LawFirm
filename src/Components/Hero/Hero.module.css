@@ -1,0 +1,18 @@
+.hero{
+    padding: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    background-color: black;
+}
+
+
+.orange{
+    background-color: var(--color-primary);
+    height:500px;
+    width:500px
+}
+
+.heroImage{
+    height:200px;
+}
