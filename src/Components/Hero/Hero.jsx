@@ -15,8 +15,13 @@ const Hero = () => {
           <div className={style.text2}>
             <p>Lorem ipsum dolor sit amet consectetur adipiscing elit blandit, curabitur sodales conubia ut inceptos faucibus himenaeos tortor eget, hac massa gravida arcu interdum proin curae.</p>
           </div>
+        
+          <div className={style.inputContainer}>
+          <input placeholder="Enter your email address" className={style.text3}>
+          </input>
+          <button className={style.text4} type="button">Let's talk</button>
+          </div>
 
-          <input className={style.text3}></input>
        </div>
        <div className={style.heroImage}>
          <HeroLawyer/>
