@@ -59,6 +59,15 @@ padding:3rem;
 
 }
 
+.cardWrapper{
+ 
+  display: flex;
+  justify-content: center;
+  padding:10rem;
+  gap: 1rem;
+
+}
+
 .card{
     width: 359px;
   height: 377px;

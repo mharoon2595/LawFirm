@@ -25,7 +25,11 @@ enim velit mollit Exercitation.</p>
     </div>
     </div>
     <p className={style.choose}>Why choose us?</p>
+    <div className={style.cardWrapper}>
     <Card/>
+    <Card/>
+    <Card/>
+    </div>
     </div>
   )
 }
