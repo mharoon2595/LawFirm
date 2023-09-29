@@ -1,0 +1,22 @@
+.wrapper{
+    padding: 10rem;
+}
+
+.choose{
+    text-align: center;
+font-size: 54px;
+font-weight: 600;
+line-height: 77px;
+letter-spacing: 0em;
+padding:3rem;
+
+}
+
+.grid{
+
+    display: flex;
+    flex-wrap: wrap;
+    row-gap:5rem;
+    column-gap:10rem;
+    justify-content: center;
+}

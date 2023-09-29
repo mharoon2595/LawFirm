@@ -11,21 +11,27 @@ const ImageGrid = () => {
   return (
     
     <div className={style.wrapper}>
-        <p className={style.choose}>Area of Practices</p>
+        <p className={style.choose}>Areas of Practice</p>
         <Box sx={{ flexGrow: 1 }}>
-        <Grid container spacing={1}>
-        <Grid item md={6}>
+        <Grid container spacing={2}>
+        <Grid item md={8}>
           <GridCard image={GridImage1} text='BUSINESS LAW'/>
         </Grid>
-        <Grid item md={6}>
+        <Grid item md={4}>
         <GridCard image={GridImage2} text='PARTNERSHIP LAW'/>
         </Grid>
-        {/* <Grid item md={4}>
+        <Grid item md={4}>
         <GridCard image={GridImage1} text='BUSINESS LAW'/>
         </Grid>
         <Grid item md={8}>
         <GridCard image={GridImage2} text='PARTNERSHIP LAW'/>
-        </Grid> */}
+        </Grid>
+        <Grid item md={8}>
+          <GridCard image={GridImage1} text='BUSINESS LAW'/>
+        </Grid>
+        <Grid item md={4}>
+        <GridCard image={GridImage2} text='PARTNERSHIP LAW'/>
+        </Grid>
       </Grid>
       </Box>
 

@@ -1,0 +1,15 @@
+.wrapper{
+    padding:10rem;
+}
+
+
+.seperate{
+    
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.acc{
+    width: 564px;
+}

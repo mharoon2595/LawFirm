@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useSwiper } from 'swiper/react'; // Import useSwiper from 'swiper/react'
 import LeftArrow from '../../../Assets/Group 41.png'
-import styles from './CarouselLeft.module.css'
+import style from './CarouselLeft.module.css'
 
 const CarouselLeftNav = () => {
   const swiper = useSwiper(); // Get the swiper instance from useSwiper
@@ -36,9 +36,9 @@ const CarouselLeftNav = () => {
 
   
   return (
-    <div >
+    <div className={style.positionLeft} >
       { ( 
-        <img src={LeftArrow} alt="Left Arrow" onClick={slidePrev} />
+        <img src={LeftArrow} alt="Left Arrow" style={{ transform: `rotate(180deg)`, cursor: 'pointer' }}onClick={slidePrev} />
       )}
     </div>
   );

@@ -4,8 +4,8 @@ import style from './GridCard.module.css'
 const GridCard = ({image, text}) => {
   return (
     <div className={style.wrapper}>
-        <img className={style.img} src={image}></img>
-        <p className={style.text}>{text}</p>
+        <img src={image}></img>
+        <p className={style.desc}>{text}</p>
     </div>
   )
 }

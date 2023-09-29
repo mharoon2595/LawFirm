@@ -40,31 +40,28 @@ const Carousel = () => {
 
   return (
     <div className={style.wrapper}>
-        <div className={style.sideByside}>
+        
             <div className={style.choose}>
                <p>What says our</p>
                <p>happy clients</p>
             </div>
-            <div className={style.btns}> 
-                <CarouselLeftNav/>
-                <CarouselRightNav/>
-            </div>
-        </div>
      
         <Swiper
     modules={[Navigation]}
     spaceBetween='40px'
     slidesPerView={3}
     allowTouchMove
-    style={{padding:'20px'}}
+    style={{padding:'40px'}}
      >
+      
       <Controls data={cardData}/>
       <CarouselLeftNav />
       <CarouselRightNav />
+
       
       {cardData.map((items)=>(
        
-       <SwiperSlide><CarouselCard text={items.title} desc={items.description}/></SwiperSlide >
+       <SwiperSlide style={{paddingTop:'200px'}}><CarouselCard text={items.title} desc={items.description}/></SwiperSlide >
       
        ))}
       </Swiper>

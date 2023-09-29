@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { useSwiper } from 'swiper/react';
 import  RightArrow from '../../../Assets/Group 41.png'
-import styles from './CarouselRight.module.css'
+import style from './CarouselRight.module.css'
 
 const CarouselRightNav = () => {
     const swiper=useSwiper();
@@ -45,8 +45,8 @@ const CarouselRightNav = () => {
 
 
   return (
-    <div >
-        <img src={RightArrow} alt="Left Arrow" onClick={slideNext} />
+    <div className={style.positionRight} >
+        <img src={RightArrow} alt="Left Arrow" style={{ cursor: 'pointer' }}onClick={slideNext} />
     </div>
   )
 
